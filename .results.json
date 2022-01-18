@@ -2,18 +2,18 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 4,
+    "passes": 5,
     "pending": 0,
-    "failures": 1,
-    "start": "2022-01-18T05:10:12.762Z",
-    "end": "2022-01-18T05:10:13.917Z",
-    "duration": 1155
+    "failures": 0,
+    "start": "2022-01-18T05:15:26.830Z",
+    "end": "2022-01-18T05:15:27.798Z",
+    "duration": 968
   },
   "tests": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -27,7 +27,7 @@
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -41,32 +41,18 @@
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: changeLeastFavoriteCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:37:14)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "changeLeastFavoriteCustomer is not defined"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "unsuccessfully tries to reassign the least favorite customer",
-      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: changeLeastFavoriteCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:37:14)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "changeLeastFavoriteCustomer is not defined"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -80,13 +66,20 @@
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
